@@ -5,11 +5,12 @@
 
 # (22:45)
 kubectl create -f deployments/mysql.yaml
-
 # (23:05)
 kubectl get pods
 
 # (24:30)
 kubectl create -f services/mysql.yaml
+# (24:35)
+kubectl get pods
 
 # EOF
